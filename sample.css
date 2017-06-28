@@ -1,0 +1,17 @@
+div{
+	margin-top: 50px;
+	border: 1px solid black;
+	box-shadow: 5px 5px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 3em;
+}
+
+div:hover{
+	animation: spin 3s;
+}
+
+@keyframes spin{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
